@@ -25,3 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.card{
+      border-radius: 10px;
+      background-color: #ffffff; /* Cor de fundo da div */
+      transition: background-color 0.3s, box-shadow 0.3s;
+      padding: 10px;
+      border: 1px solid #ccc;
+}
+
+.card:hover{
+  background-color: #dfdfdf; /* Cor de fundo escurecida no hover */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
