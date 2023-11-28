@@ -2,7 +2,11 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import idosoImg from '../assets/idoso.jpg';
 import Email from '../email/page';
-import Exemplo from '../assets/exemplo.png';
+import Passo1 from '../assets/Telefone/Passo1.png';
+import Passo2 from '../assets/Telefone/Passo2.png';
+import Passo3 from '../assets/Telefone/Passo3.png';
+import Passo4 from '../assets/Telefone/Passo4.png';
+import Passo5 from '../assets/Telefone/Passo5.png';
 
 
 const Telefone: React.FC = () => {
@@ -47,7 +51,7 @@ const Telefone: React.FC = () => {
     Salvar o Contato: Toque/clique em  Salvar  ou  Confirmar para guardar o novo contato <br />
     <br />
         <Image
-          src={Exemplo}
+          src={Passo1}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -58,7 +62,7 @@ const Telefone: React.FC = () => {
     Procurar o contato: Deslize/clique para cima ou para baixo na lista de contatos até encontrar o nome desejado ou preencha o nome no campo de busca (no topo da tela) <br />
     <br />
         <Image
-          src={Exemplo}
+          src={Passo2}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -69,7 +73,7 @@ const Telefone: React.FC = () => {
     Favoritar o Contato: Procure por uma estrela ou um coração e toque nele, assim favoritando-o <br />
     <br />
         <Image
-          src={Exemplo}
+          src={Passo3}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -81,7 +85,7 @@ const Telefone: React.FC = () => {
     Adicionar número à Lista de bloqueio: Escolha  Adicionar número  e insira o número que deseja bloquear <br />
     <br />
         <Image
-          src={Exemplo}
+          src={Passo4}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -94,7 +98,7 @@ const Telefone: React.FC = () => {
     Encerrar a ligação: Quando terminar, toque no botão vermelho de  Desligar  para encerrar a chamada <br />
     <br />
         <Image
-          src={Exemplo}
+          src={Passo5}
           alt="Landscape picture"
           width={500}
           height={300}

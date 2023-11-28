@@ -1,7 +1,12 @@
 import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import idosoImg from '../assets/idoso.jpg';
-import Exemplo from '../assets/exemplo.png';
+import Passo1 from '../assets/E-mail/Passo1.png';
+import Passo2 from '../assets/E-mail/Passo2.png';
+import Passo3 from '../assets/E-mail/Passo3.png';
+import Passo4 from '../assets/E-mail/Passo4.png';
+import Passo44 from '../assets/E-mail/Passo44.png';
+import Passo5 from '../assets/E-mail/Passo5.png';
 
 const Email: React.FC = () => {
   const cardOptions = [
@@ -41,7 +46,7 @@ const Email: React.FC = () => {
         Abrir a Internet: Dê dois cliques no Navegador (Internet, Safari ou Google) <br />
         Entrar no E-mail: Digite o endereço do seu e-mail (hotmail, gmail, etc.), como www.gmail.com, e depois coloque seu e-mail e senha nos espaços indicados <br />
         <Image
-          src={Exemplo}
+          src={Passo1}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -50,7 +55,7 @@ const Email: React.FC = () => {
         Passo 2: Ver os E-mails <br />
         Achar a Caixa de Entrada: Assim que entrar, procure pela Caixa de Entrada, mostra todos e-mails recebidos <br />
         <Image
-          src={Exemplo}
+          src={Passo2}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -60,7 +65,7 @@ const Email: React.FC = () => {
         Achar a Lixeira: Olhe na tela e encontre um lugar chamado Lixeira, é onde ficam os e-mails deletados <br />
         E-mails Indesejados (Spam): Procure por uma opção que diz Spam ou E-mails Indesejados, são e-mails suspeitos que ficam lá (atenção!), mas também pode conter e-mails com promoções ou importantes. <br />
         <Image
-          src={Exemplo}
+          src={Passo3}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -70,7 +75,14 @@ const Email: React.FC = () => {
         Abrir um E-mail: Na Caixa de Entrada, clique no e-mail que quer ler <br />
         Responder um E-mail: Dentro do e-mail, procure por algo que diz Responder, que serve para escrever de volta. Escreva o que quiser e clique para enviar. <br />
         <Image
-          src={Exemplo}
+          src={Passo4}
+          alt="Landscape picture"
+          width={500}
+          height={300}
+          className="rounded-lg"
+        /><br />
+                <Image
+          src={Passo44}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -81,7 +93,7 @@ const Email: React.FC = () => {
         Preencher as Informações: Na nova janela, coloque o e-mail da pessoa, escreva o assunto e a mensagem <br />
         Enviar o E-mail: Quando terminar de escrever, clique em Enviar, é como colocar uma carta no correio! <br />
         <Image
-          src={Exemplo}
+          src={Passo5}
           alt="Landscape picture"
           width={500}
           height={300}

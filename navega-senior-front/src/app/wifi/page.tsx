@@ -2,8 +2,10 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import idosoImg from '../assets/idoso.jpg';
 import Email from '../email/page';
-import Exemplo from '../assets/exemplo.png';
-
+import Passo1 from '../assets/Wifi/Passo1.png';
+import Passo2 from '../assets/Wifi/Passo2.png';
+import Passo3 from '../assets/Wifi/Passo3.png';
+import Passo4 from '../assets/Wifi/Passo4.png';
 
 const Wifi: React.FC = () => {
   const cardOptions = [
@@ -42,7 +44,7 @@ const Wifi: React.FC = () => {
     Encontre a Opção  Wi-Fi : Dentro das configurações, procure por uma opção chamada  Wi-Fi  e clique <br />
     <br />
         <Image
-          src={Exemplo}
+          src={Passo1}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -52,7 +54,7 @@ const Wifi: React.FC = () => {
     Ative o Wi-Fi: Toque no interruptor ou botão que diz  Wi-Fi  para ligar <br />
     <br />
         <Image
-          src={Exemplo}
+          src={Passo2}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -63,7 +65,7 @@ const Wifi: React.FC = () => {
     Escolha a rede desejada: Olhe a lista de redes e toque na que você deseja se conectar. Essa rede geralmente terá um nome, por exemplo  Casa do João  ou  Rede123  <br />
     <br />
         <Image
-          src={Exemplo}
+          src={Passo3}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -74,7 +76,7 @@ const Wifi: React.FC = () => {
     Clique em  Conectar  ou  Entrar : Após inserir a senha, procure por um botão que diz  Conectar  ou  Entrar  e clique <br />
     <br />
         <Image
-          src={Exemplo}
+          src={Passo4}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -84,13 +86,6 @@ const Wifi: React.FC = () => {
     Aguarde a conexão: Aguarde alguns segundos enquanto o dispositivo se conecta à rede Wi-Fi <br />
     Verifique a conexão bem-sucedida: Se a conexão for bem-sucedida, você verá um ícone de Wi-Fi na parte superior da tela ou em algum lugar visível no dispositivo <br />
     <br />
-        <Image
-          src={Exemplo}
-          alt="Landscape picture"
-          width={500}
-          height={300}
-          className="rounded-lg"
-        /><br />
 </p>
 
 

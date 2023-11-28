@@ -2,7 +2,11 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import idosoImg from '../assets/idoso.jpg';
 import Email from '../email/page';
-import Exemplo from '../assets/exemplo.png';
+import Passo1 from '../assets/Compra/Passo1.png';
+import Passo2 from '../assets/Compra/Passo2.png';
+import Passo3 from '../assets/Compra/Passo3.png';
+import Passo4 from '../assets/Compra/Passo4.png';
+import Passo5 from '../assets/Compra/Passo5.png';
 
 const Compras: React.FC = () => {
   const cardOptions = [
@@ -32,7 +36,7 @@ const Compras: React.FC = () => {
       </div>
 
       <h1 className="text-4xl font-bold mb-4 text-center" style={{ color: '#6d4664' }}>
-        Como Fazer compras On-line: Computador
+        Como Fazer compras On-line
       </h1>
 
       <p className="text-2xl mb-6 text-justify mx-4" style={{ color: '#805e79' }}>
@@ -40,7 +44,7 @@ const Compras: React.FC = () => {
         No navegador, digite o endereço do site: Na barra de endereços do navegador, digite o endereço do site de compras que deseja visitar (por exemplo, www.exemplo.com) e pressione  Enter . <br />
         <br />
         <Image
-          src={Exemplo}
+          src={Passo1}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -51,7 +55,7 @@ const Compras: React.FC = () => {
         Selecione o produto: Clique no produto desejado para ver mais detalhes. Pode ser necessário escolher tamanho, cor, ou outras opções <br />
         <br />
         <Image
-          src={Exemplo}
+          src={Passo2}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -62,7 +66,7 @@ const Compras: React.FC = () => {
         Verifique o carrinho: Procure por um ícone de carrinho de compras (geralmente no canto superior direito) e clique para ver o que está no seu carrinho <br />
         <br />
         <Image
-          src={Exemplo}
+          src={Passo3}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -73,7 +77,7 @@ const Compras: React.FC = () => {
         Inicie o processo de checkout: Procure por um botão que diz  Checkout  ou  Finalizar Compra , clique para finalizar <br />
         <br />
         <Image
-          src={Exemplo}
+          src={Passo4}
           alt="Landscape picture"
           width={500}
           height={300}
@@ -86,7 +90,7 @@ const Compras: React.FC = () => {
         Clique em  Comprar  ou  Finalizar compra : Ao término, procure por um botão que diz  Comprar  ou  Finalizar compra , clique para concluir <br />
         <br />
         <Image
-          src={Exemplo}
+          src={Passo5}
           alt="Landscape picture"
           width={500}
           height={300}
