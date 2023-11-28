@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import idosoImg from '../assets/idoso.jpg';
 import Email from '../email/page';
+import Exemplo from '../assets/exemplo.png';
 
 
 const Wifi: React.FC = () => {
@@ -18,6 +19,9 @@ const Wifi: React.FC = () => {
     <div className="w-full h-full bg-white">
       <Navbar />
 
+      <h1 className="text-4xl font-bold mb-4 text-center" style={{ color: '#6d4664' }}>
+        De Volta Para o Futuro: Conectando Gerações Através da Inclusão Digital
+      </h1>
       <div className="my-8 flex justify-center">
         <Image
           src={idosoImg}
@@ -29,35 +33,67 @@ const Wifi: React.FC = () => {
       </div>
 
       <h1 className="text-4xl font-bold mb-4 text-center" style={{ color: '#6d4664' }}>
-        De Volta Para o Futuro: Conectando Gerações Através da Inclusão Digital
+        Como Conectar a Rede Wifi
       </h1>
 
       <p className="text-2xl mb-6 text-justify mx-4" style={{ color: '#805e79' }}>
-      Passo 1: Acessar as configurações Wi-Fi
-      Ir para configurações:
-      No seu dispositivo, encontre e toque no ícone de  Configurações  (geralmente um ícone de engrenagem)
-      Encontrar a Opção  Wi-Fi :
-      Dentro das configurações, procure por uma opção chamada  Wi-Fi  e clique
-      Passo 2: Ativar o Wi-Fi
-      Ativar o Wi-Fi:
-      Toque no interruptor ou botão que diz  Wi-Fi  para ligar
-      Passo 3: Procurar redes Wi-Fi disponíveis
-      Aguardar a lista de redes:
-      Aguarde alguns segundos enquanto o dispositivo procura por redes Wi-Fi disponíveis
-      Escolher a rede desejada:
-      Olhe a lista de redes e toque na que você deseja se conectar. Essa rede geralmente terá um nome, por exemplo  Casa do João  ou  Rede123 
-      Passo 4: Inserir a senha da rede
-      Digitar a senha:
-      Se a rede Wi-Fi for protegida, será necessário digitar a senha, toque no campo de senha e use o teclado na tela para inseri-la
-      Clicar em  Conectar  ou  Entrar :
-      Após inserir a senha, procure por um botão que diz  Conectar  ou  Entrar  e clique
-      Passo 6: Verificar conexão
-      Aguardar conexão:
-      Aguarde alguns segundos enquanto o dispositivo se conecta à rede Wi-Fi
-      Verificar a conexão bem-sucedida:
-      Se a conexão for bem-sucedida, você verá um ícone de Wi-Fi na parte superior
-      da tela ou em algum lugar visível no dispositivo
-      </p>
+    Passo 1: Acesse as configurações Wi-Fi <br />
+    Vá para configurações: No seu dispositivo, encontre e toque no ícone de  Configurações  (geralmente um ícone de engrenagem) <br />
+    Encontre a Opção  Wi-Fi : Dentro das configurações, procure por uma opção chamada  Wi-Fi  e clique <br />
+    <br />
+        <Image
+          src={Exemplo}
+          alt="Landscape picture"
+          width={500}
+          height={300}
+          className="rounded-lg"
+        /><br />
+    Passo 2: Ative o Wi-Fi <br />
+    Ative o Wi-Fi: Toque no interruptor ou botão que diz  Wi-Fi  para ligar <br />
+    <br />
+        <Image
+          src={Exemplo}
+          alt="Landscape picture"
+          width={500}
+          height={300}
+          className="rounded-lg"
+        /><br />
+    Passo 3: Procure por redes Wi-Fi disponíveis <br />
+    Aguarde a lista de redes: Aguarde alguns segundos enquanto o dispositivo procura por redes Wi-Fi disponíveis <br />
+    Escolha a rede desejada: Olhe a lista de redes e toque na que você deseja se conectar. Essa rede geralmente terá um nome, por exemplo  Casa do João  ou  Rede123  <br />
+    <br />
+        <Image
+          src={Exemplo}
+          alt="Landscape picture"
+          width={500}
+          height={300}
+          className="rounded-lg"
+        /><br />
+    Passo 4: Insira a senha da rede <br />
+    Digite a senha: Se a rede Wi-Fi for protegida, será necessário digitar a senha. Toque no campo de senha e use o teclado na tela para inseri-la <br />
+    Clique em  Conectar  ou  Entrar : Após inserir a senha, procure por um botão que diz  Conectar  ou  Entrar  e clique <br />
+    <br />
+        <Image
+          src={Exemplo}
+          alt="Landscape picture"
+          width={500}
+          height={300}
+          className="rounded-lg"
+        /><br />
+    Passo 6: Verifique a conexão <br />
+    Aguarde a conexão: Aguarde alguns segundos enquanto o dispositivo se conecta à rede Wi-Fi <br />
+    Verifique a conexão bem-sucedida: Se a conexão for bem-sucedida, você verá um ícone de Wi-Fi na parte superior da tela ou em algum lugar visível no dispositivo <br />
+    <br />
+        <Image
+          src={Exemplo}
+          alt="Landscape picture"
+          width={500}
+          height={300}
+          className="rounded-lg"
+        /><br />
+</p>
+
+
 
       <div className="grid grid-cols-2 gap-4 mx-4">
         {cardOptions.map((option, index) => (
