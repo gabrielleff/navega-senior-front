@@ -29,7 +29,7 @@ const Home: React.FC = () => {
       </div>
 
       <h1 className="text-4xl font-bold mb-4 text-center" style={{ color: '#6d4664' }}>
-        De Volta Para o Futuro: Conectando Gerações Através da Inclusão Digital
+        De Volta Para o Futuro: Conectando Gerações Através da Inclusão Digital!!!
       </h1>
 
       <p className="text-2xl mb-6 text-justify mx-4" style={{ color: '#805e79' }}>
